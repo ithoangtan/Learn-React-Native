@@ -24,11 +24,14 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+import LayoutWithFlexbox from './src/lession/layoutWithFlexbox';
+
 export default class App extends Component {
   render() {
     return (
       <>
-        <StatusBar barStyle="dark-content" />
+        <LayoutWithFlexbox />
+        {/* <StatusBar barStyle="dark-content" />
         <SafeAreaView>
           <ScrollView
             contentInsetAdjustmentBehavior="automatic"
@@ -68,7 +71,7 @@ export default class App extends Component {
               <LearnMoreLinks />
             </View>
           </ScrollView>
-        </SafeAreaView>
+        </SafeAreaView> */}
       </>
     );
   }
